@@ -1,0 +1,37 @@
+
+<div class="header">
+  <h1>Список стран</h1>
+</div>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <form class="search-form" action="/action_page.php">
+  <input type="text" placeholder="Поиск.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Название страны</th>
+        <th>Название континента</th>
+        <th>Столица</th>
+        <th>Валюта</th>
+        <th>Язык</th>
+        <th>Телефон</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let country of allCountries">
+        <td>{{country.name}}</td>
+        <td>{{country.continent.name}}</td>
+        <td>{{country.capital}}</td>
+        <td>{{country.currency}}</td>
+        <td>{{country.languages.name}}</td>
+        <td>{{country.phone}}</td>
+      </tr>
+   
+    </tbody>
+  </table>
+</div>
+

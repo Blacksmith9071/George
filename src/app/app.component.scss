@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.header {
+  margin-top: 10px;
+  margin-left: 140px;
+  width: 1600px;
+  background-color: #74bbf5;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.table {
+  margin: 0 auto;
+  margin-top: 10px;
+	width: 80%;
+	margin-bottom: 20px;
+	border: 15px solid #F2F8F8;
+	border-top: 5px solid #F2F8F8;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #F2F8F8;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+.table td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+  text-align: center;
+}
+
+.search-form input {
+  height: 35px;
+  max-width: 200px;
+  margin: 100px 0 0 190px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.search-form button {
+  height: 35px;
+  max-width: 50px;
+  margin-top: 100px;
+  float: left;
+  width: 20%;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  border-left: none; 
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background: #0b7dda;
+}
+
+.search-form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
